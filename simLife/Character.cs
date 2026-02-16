@@ -1,4 +1,5 @@
 using simLife.Items;
+using System.Linq;
 namespace simLife.Character;
 
 public class NewCharacter
@@ -33,6 +34,18 @@ public class NewCharacter
     private void SeekFood()
     {
         Console.WriteLine($"{Name} is looking for food...");
+
+        var foodItem = Inventory
+            .FirstOrDefault(entry => entry.Key.Type == ItemType.Food && entry.Value > 0);
+
+        if (foodItem.Key != null)
+        {
+            Eat(foodItem.Key);
+        }
+        else
+        {
+            Console.WriteLine($"{Name} has no food!");
+        }
     }
     private void CheckHunger()
     {
@@ -41,9 +54,26 @@ public class NewCharacter
             SeekFood();
         }
     }
+    private void Eat(Item item)
+    {
+        Console.WriteLine($"{Name} eats {item.Name}");
+
+        Hunger += item.Nutrition;
+        if (Hunger > 100)
+            Hunger = 100;
+
+        Inventory[item]--;
+
+        if (Inventory[item] <= 0)
+            Inventory.Remove(item);
+    }
     public void AddItem(Item item)
     {
         Inventory[item] = Inventory.GetValueOrDefault(item) + 1;
+    }
+    public void RemoveItem(Item item)
+    {
+        Inventory[item] = Inventory.GetValueOrDefault(item) - 1;
     }
     public void Tick()
     {

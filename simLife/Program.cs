@@ -1,5 +1,6 @@
 ﻿using simLife.Character;
 using simLife.NameBuilder;
+using simLife.Items;
 class Program{
     static List<NewCharacter> worldCharacters = new();
     public static void Main()
@@ -37,5 +38,6 @@ class Program{
         };
         worldCharacters.Add(character);
         character.PrintStats();
+        character.AddItem(new Item("Apple", ItemType.Food, 2, 10));
     }
 }
