@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\willd\\.nuget\\packages\\": {}
+    "/Users/will/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willd\\github\\simLife\\simLife\\simLife.csproj",
+      "projectUniqueName": "/Users/will/github/simCSharp/simLife/simLife.csproj",
       "projectName": "simLife",
-      "projectPath": "C:\\Users\\willd\\github\\simLife\\simLife\\simLife.csproj",
-      "packagesPath": "C:\\Users\\willd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willd\\github\\simLife\\simLife\\obj\\",
+      "projectPath": "/Users/will/github/simCSharp/simLife/simLife.csproj",
+      "packagesPath": "/Users/will/.nuget/packages/",
+      "outputPath": "/Users/will/github/simCSharp/simLife/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\willd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/will/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -43,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -64,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

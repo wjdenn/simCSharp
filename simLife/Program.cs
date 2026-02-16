@@ -32,7 +32,8 @@ class Program{
         {
             Name = $"{adjective} {name}",
             Health = 100,
-            Hunger = 100
+            Hunger = 100,
+            Wealth = 100,
         };
         worldCharacters.Add(character);
         character.PrintStats();
