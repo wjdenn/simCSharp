@@ -1,0 +1,14 @@
+C:\Users\willd\github\simLife\simLife\obj\Debug\net8.0\simLife.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willd\github\simLife\simLife\obj\Debug\net8.0\simLife.AssemblyInfoInputs.cache
+C:\Users\willd\github\simLife\simLife\obj\Debug\net8.0\simLife.AssemblyInfo.cs
+C:\Users\willd\github\simLife\simLife\obj\Debug\net8.0\simLife.csproj.CoreCompileInputs.cache
+C:\Users\willd\github\simLife\simLife\bin\Debug\net8.0\simLife.exe
+C:\Users\willd\github\simLife\simLife\bin\Debug\net8.0\simLife.deps.json
+C:\Users\willd\github\simLife\simLife\bin\Debug\net8.0\simLife.runtimeconfig.json
+C:\Users\willd\github\simLife\simLife\bin\Debug\net8.0\simLife.dll
+C:\Users\willd\github\simLife\simLife\bin\Debug\net8.0\simLife.pdb
+C:\Users\willd\github\simLife\simLife\obj\Debug\net8.0\simLife.dll
+C:\Users\willd\github\simLife\simLife\obj\Debug\net8.0\refint\simLife.dll
+C:\Users\willd\github\simLife\simLife\obj\Debug\net8.0\simLife.pdb
+C:\Users\willd\github\simLife\simLife\obj\Debug\net8.0\simLife.genruntimeconfig.cache
+C:\Users\willd\github\simLife\simLife\obj\Debug\net8.0\ref\simLife.dll
